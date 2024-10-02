@@ -1,0 +1,10 @@
+.navigation-bar {
+    position: relative;
+}
+
+.theme-switch{
+    position:absolute;
+    right:0.5rem;
+    top:50%;
+    transform: translateY(-50%);
+}
