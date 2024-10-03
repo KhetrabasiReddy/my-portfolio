@@ -19,21 +19,18 @@ export default function ThemeSwitch(props) {
         document.documentElement.setAttribute('data-bs-theme', theme);
     }, [theme]);
 
-    const styles = {cursor:'pointer !important',};
+
 
   return (
     <div className="form-check form-switch">
-    <input
-        style={styles}
+    <input 
         id="theme-switch-btn"
         className="form-check-input"
         type="checkbox"
         onChange={handleChange}
         checked={theme === 'dark'} // Set checkbox based on the theme state
     />
-    <label
-        style={styles}
-        htmlFor='theme-switch-btn'>Dark Mode</label>    
+    <label id='theme-label'  htmlFor='theme-switch-btn'>Dark Mode</label>    
   </div>
   )
 }

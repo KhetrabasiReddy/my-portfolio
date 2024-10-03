@@ -1,3 +1,17 @@
+/* scroll bar */
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
 /* Navigation bar styles start */
 .navbar {
     backdrop-filter:blur(5px);
@@ -38,6 +52,12 @@
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
+    
+  }
+  #theme-switch-btn,
+  #theme-label {
+    cursor: pointer;
+    user-select: none;
   }
 
   
@@ -97,10 +117,11 @@
 
 .highlight-div {
   position: fixed;
-  width: 10vw;
-  height: 10vw;
-  background-color: rgba(255, 255, 255, 0.5);
-  filter: blur(50px);
+  width: 5vw;
+  height: 5vw;
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  backdrop-filter: invert(200%);
+  /* filter: blur(50px); */
   pointer-events: none;
   border-radius: 50%;
   z-index: 5 !important;
@@ -108,7 +129,50 @@
 }
 
 
+/* Hero Page */
+#hero-page{
+  /* height: 80vh; */
+  padding-top: 5%;
+}
+.hero-name{
+/* white-space: nowrap; */
+}
+#hero-page .greet{
+  /* background-image: linear-gradient(to right,#662D8C , #ED1E79); */
+  background-image: linear-gradient(to right,#009fff,#ec2f4b);
+  color: transparent;
+  background-clip: text;
+}
+
+
+/* animated border */
+
+.hero-img {
+  height:30vw;
+  aspect-ratio: 3 / 3;
+  /* width:50vh; */
+  border: 10px solid #0000;
+  background: linear-gradient(#131219, #131219) padding-box, linear-gradient(
+        var(--angle),
+        #009fff,
+        #ec2f4b
+      ) border-box;
+  animation: 8s rotate linear infinite;
+}
+
+@keyframes rotate {
+  to {
+    --angle: 360deg;
+  }
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+
 .delete-this{
   height: 200vh;
-  background-color: #10792a98;
 }
