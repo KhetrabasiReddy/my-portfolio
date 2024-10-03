@@ -84,3 +84,31 @@
     
   }
 /* Navigation bar styles end */
+
+/* Loader */
+
+.loader{
+  height:100vh;
+
+}
+
+
+/* highlight div */
+
+.highlight-div {
+  position: fixed;
+  width: 10vw;
+  height: 10vw;
+  background-color: rgba(255, 255, 255, 0.5);
+  filter: blur(50px);
+  pointer-events: none;
+  border-radius: 50%;
+  z-index: 5 !important;
+  transform: translateX(-50%) translateY(-50% );
+}
+
+
+.delete-this{
+  height: 200vh;
+  background-color: #10792a98;
+}

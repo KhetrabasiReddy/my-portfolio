@@ -9,7 +9,8 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import ThemeSwitch from './components/ThemeSwitch';
 
-function NavBar() {
+function NavBar(props) {
+
     return (
         <>
             <Router>
@@ -38,7 +39,7 @@ function NavBar() {
                                 </LinkContainer>
                                 
                             </Nav>
-                            <div className='theme-switch d-flex gap-1'><ThemeSwitch /></div>
+                            <div className='theme-switch d-flex gap-1'><ThemeSwitch  {...props}/></div>
                         </Navbar.Collapse>
                         
                     </Container>

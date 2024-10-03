@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from 'react'
 
-export default function ThemeSwitch() {
-    const [theme, setTheme] = useState('light');
+export default function ThemeSwitch(props) {
+    const {theme, setTheme} = props;
     function handleChange(e) {
         const newTheme = e.target.checked ? 'dark' : 'light';
         setTheme(newTheme);
         localStorage.setItem('pageTheme', newTheme); 
     }
-
 
     useEffect(() => {
         const savedTheme = localStorage.getItem('pageTheme');
