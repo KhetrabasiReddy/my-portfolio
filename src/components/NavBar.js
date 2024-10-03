@@ -12,7 +12,7 @@ import ThemeSwitch from './ThemeSwitch';
 function NavBar() {
     return (
         <>
-            <Router >
+            <Router basename="/my-portfolio">
                 <Navbar expand="md sticky-top">
                     <Container >
                         <Navbar.Brand> <a href="./../data/KhetrabasiReddy_Software_Developer.pdf" download="Resume" className="nav-link" target='_blank'>
