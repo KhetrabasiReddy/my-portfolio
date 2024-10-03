@@ -1,9 +1,6 @@
-// import { NavLink, Link, Route, Routes } from 'react-router-dom';
-// import { Navbar, Nav, Container } from 'react-bootstrap';
 
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
-// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { HashRouter as Router , Routes, Route} from 'react-router-dom';
 
 
@@ -18,10 +15,8 @@ function NavBar() {
     return (
         <>
             <Router >
-                {/* basename={process.env.PUBLIC_URL} */}
                 <Navbar expand="md sticky-top">
                     <Container >
-
                         <Navbar.Brand> <a href="./../data/KhetrabasiReddy_Software_Developer.pdf" download="Resume" className="nav-link" target='_blank'>
                             Resume
                         </a></Navbar.Brand>
