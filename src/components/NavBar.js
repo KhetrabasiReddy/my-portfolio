@@ -3,8 +3,6 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import { HashRouter as Router , Routes, Route} from 'react-router-dom';
 
-
-import './../styles/App.css'
 import Home from './Home';
 import Projects from './Projects';
 import Skills from './Skills';
