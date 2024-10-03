@@ -12,7 +12,7 @@ import ThemeSwitch from './components/ThemeSwitch';
 function NavBar() {
     return (
         <>
-            <Router basename="/my-portfolio">
+            <Router>
                 <Navbar expand="md sticky-top">
                     <Container >
                         <Navbar.Brand>
@@ -43,8 +43,6 @@ function NavBar() {
                         
                     </Container>
                 </Navbar>
-
-
                 <Routes>
                     <Route path='/' element={<Home />} />
                     <Route path='/projects' element={<Projects />} />
