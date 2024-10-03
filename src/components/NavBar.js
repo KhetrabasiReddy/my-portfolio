@@ -3,7 +3,9 @@
 
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router , Routes, Route} from 'react-router-dom';
+
 
 import './../styles/App.css'
 import Home from './Home';
@@ -15,7 +17,8 @@ import ThemeSwitch from './ThemeSwitch';
 function NavBar() {
     return (
         <>
-            <Router basename={process.env.PUBLIC_URL}>
+            <Router >
+                {/* basename={process.env.PUBLIC_URL} */}
                 <Navbar expand="md sticky-top">
                     <Container >
 
