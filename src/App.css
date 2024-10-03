@@ -33,6 +33,7 @@
   
   /* Customize the theme switcher */
   .theme-switch {
+    margin-top: .7rem !important;
     display: flex;
     align-items: center;
     justify-content: center;
