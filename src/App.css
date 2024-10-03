@@ -33,7 +33,7 @@
   
   /* Customize the theme switcher */
   .theme-switch {
-    margin-top: .7rem !important;
+    /* margin-top: .7rem !important; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,6 +77,9 @@
     .navbar .nav-link {
       font-size: 1rem;
       padding: 8px;
+    }
+    .theme-switch {
+      margin-top: .7rem !important;
     }
     
   }
