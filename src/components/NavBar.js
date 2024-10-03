@@ -15,7 +15,7 @@ import ThemeSwitch from './ThemeSwitch';
 function NavBar() {
     return (
         <>
-            <Router>
+            <Router basename={process.env.PUBLIC_URL}>
                 <Navbar expand="md sticky-top">
                     <Container >
 
