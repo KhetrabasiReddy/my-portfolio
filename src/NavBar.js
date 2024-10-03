@@ -12,15 +12,14 @@ import ThemeSwitch from './components/ThemeSwitch';
 function NavBar() {
     return (
         <>
-        {/* basename="/my-portfolio" */}
-            <Router basename='/'>
+            <Router basename="/my-portfolio">
                 <Navbar expand="md sticky-top">
                     <Container >
                         <Navbar.Brand>
-                            {/* <a href="./../data/KhetrabasiReddy_Software_Developer.pdf" download="Resume" className="nav-link" target='_blank'>
+                            <a href="./../data/KhetrabasiReddy_Software_Developer.pdf" download="Resume" className="nav-link" target='_blank'>
                             Resume
-                        </a> */}
-                        Resume
+                        </a>
+                 
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
