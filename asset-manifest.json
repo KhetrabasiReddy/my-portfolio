@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/KhetrabasiReddy.github.io/my-portfolio.git/static/css/main.b4d6ad14.css",
-    "main.js": "/KhetrabasiReddy.github.io/my-portfolio.git/static/js/main.7536bdca.js",
+    "main.js": "/KhetrabasiReddy.github.io/my-portfolio.git/static/js/main.89aba4cb.js",
     "static/js/453.acca0757.chunk.js": "/KhetrabasiReddy.github.io/my-portfolio.git/static/js/453.acca0757.chunk.js",
     "index.html": "/KhetrabasiReddy.github.io/my-portfolio.git/index.html",
     "main.b4d6ad14.css.map": "/KhetrabasiReddy.github.io/my-portfolio.git/static/css/main.b4d6ad14.css.map",
-    "main.7536bdca.js.map": "/KhetrabasiReddy.github.io/my-portfolio.git/static/js/main.7536bdca.js.map",
+    "main.89aba4cb.js.map": "/KhetrabasiReddy.github.io/my-portfolio.git/static/js/main.89aba4cb.js.map",
     "453.acca0757.chunk.js.map": "/KhetrabasiReddy.github.io/my-portfolio.git/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b4d6ad14.css",
-    "static/js/main.7536bdca.js"
+    "static/js/main.89aba4cb.js"
   ]
 }
