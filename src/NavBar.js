@@ -3,16 +3,17 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import { HashRouter as Router , Routes, Route} from 'react-router-dom';
 
-import Home from './Home';
-import Projects from './Projects';
-import Skills from './Skills';
-import Contact from './Contact';
-import ThemeSwitch from './ThemeSwitch';
+import Home from './components/Home';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
+import Contact from './components/Contact';
+import ThemeSwitch from './components/ThemeSwitch';
 
 function NavBar() {
     return (
         <>
-            <Router basename="/my-portfolio">
+        {/* basename="/my-portfolio" */}
+            <Router basename='/'>
                 <Navbar expand="md sticky-top">
                     <Container >
                         <Navbar.Brand> <a href="./../data/KhetrabasiReddy_Software_Developer.pdf" download="Resume" className="nav-link" target='_blank'>
