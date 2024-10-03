@@ -16,9 +16,12 @@ function NavBar() {
             <Router basename='/'>
                 <Navbar expand="md sticky-top">
                     <Container >
-                        <Navbar.Brand> <a href="./../data/KhetrabasiReddy_Software_Developer.pdf" download="Resume" className="nav-link" target='_blank'>
+                        <Navbar.Brand>
+                            {/* <a href="./../data/KhetrabasiReddy_Software_Developer.pdf" download="Resume" className="nav-link" target='_blank'>
                             Resume
-                        </a></Navbar.Brand>
+                        </a> */}
+                        Resume
+                        </Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="mx-auto gap-2 ">
