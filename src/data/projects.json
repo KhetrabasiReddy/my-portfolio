@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "name": "Project 1",
+      "description": "This is project 1 description.",
+      "technologies": "React, Bootstrap",
+      "challenges": "Routing issues.",
+      "image": "/path/to/image.jpg",
+      "githubLink": "https://github.com/project1"
+    },
+    {
+      "id": 2,
+      "name": "Project 2",
+      "description": "This is project 2 description.",
+      "technologies": "JavaScript, CSS",
+      "challenges": "Asynchronous issues.",
+      "image": "/path/to/image2.jpg",
+      "githubLink": "https://github.com/project2"
+    }
+  ]
+  

@@ -1,0 +1,60 @@
+
+.loader{
+    height:100vh;
+  }
+
+.circle{
+    border-radius: 50%;
+    border:1rem solid transparent;
+    border-top-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: spin 2s  1 forwards;
+    animation-timing-function:cubic-bezier(0.15, 0.15, 0.64, 0.59);
+}
+
+.circle-container{
+    height: 20rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle-5{
+    height: 50%;
+    width:50%;
+    border-top-color: blueviolet;
+    
+}
+.circle-4{
+    border-top-color:brown;
+    height: 100%;
+    width:100%;
+}
+.circle-3{
+    border-top-color:aqua;
+     height: 100%;
+    width:100%;
+}
+.circle-2{
+    border-top-color:chartreuse;
+     height: 100%;
+    width:100%;
+}
+.circle-1{
+    border-top-color:red;
+     height: 100%;
+    width:100%;
+}
+@keyframes spin {
+    from{
+        transform: rotate(0);
+        
+    }to{
+        transform: rotate(1turn) ;
+       border-top-color: transparent;
+       ;
+    }
+    
+}

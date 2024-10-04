@@ -1,0 +1,74 @@
+/* Base Font Sizes (for large screens - desktops and laptops) */
+p {
+    font-size: 1.2rem;
+  }
+  
+  h1 {
+    font-size: 4rem;
+  }
+  
+  h2 {
+    font-size: 3rem;
+  }
+  
+  h3 {
+    font-size: 2.5rem;
+  }
+  
+  /* Tablet Devices (Medium screens: 768px to 991px) */
+  @media (max-width: 991px) {
+    p {
+      font-size: 1.1rem;
+    }
+  
+    h1 {
+      font-size: 3.5rem;
+    }
+  
+    h2 {
+      font-size: 2.8rem;
+    }
+  
+    h3 {
+      font-size: 2.3rem;
+    }
+  }
+  
+  /* Mobile Devices (Small screens: 576px to 767px) */
+  @media (max-width: 767px) {
+    p {
+      font-size: 1rem;
+    }
+  
+    h1 {
+      font-size: 3rem;
+    }
+  
+    h2 {
+      font-size: 2.5rem;
+    }
+  
+    h3 {
+      font-size: 2rem;
+    }
+  }
+  
+  /* Extra Small Devices (Phones: below 576px) */
+  @media (max-width: 575px) {
+    p {
+      font-size: 0.9rem;
+    }
+  
+    h1 {
+      font-size: 2.5rem;
+    }
+  
+    h2 {
+      font-size: 2rem;
+    }
+  
+    h3 {
+      font-size: 1.8rem;
+    }
+  }
+  

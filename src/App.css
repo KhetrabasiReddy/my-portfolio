@@ -14,6 +14,9 @@ body::-webkit-scrollbar-thumb {
 
 /* Navigation bar styles start */
 .navbar {
+  position: fixed !important;
+  z-index: 10;
+  width: 100%;
     backdrop-filter:blur(5px);
     background-image: rgba(255, 255, 255, 0.082);
   }
@@ -105,13 +108,6 @@ body::-webkit-scrollbar-thumb {
   }
 /* Navigation bar styles end */
 
-/* Loader */
-
-.loader{
-  height:100vh;
-
-}
-
 
 /* highlight div */
 
@@ -130,13 +126,11 @@ body::-webkit-scrollbar-thumb {
 
 
 /* Hero Page */
-#hero-page{
-  /* height: 80vh; */
-  padding-top: 5%;
+.hero{
+  /* height: 90%; */
+  /* width: 30%; */
 }
-.hero-name{
-/* white-space: nowrap; */
-}
+
 #hero-page .greet{
   /* background-image: linear-gradient(to right,#662D8C , #ED1E79); */
   background-image: linear-gradient(to right,#009fff,#ec2f4b);
@@ -144,13 +138,17 @@ body::-webkit-scrollbar-thumb {
   background-clip: text;
 }
 
+@media (max-width: 768px) {
+  .hero{
+    height: 100%;
+    width:100%;
+  }
+}
 
 /* animated border */
 
 .hero-img {
-  height:30vw;
   aspect-ratio: 3 / 3;
-  /* width:50vh; */
   border: 10px solid #0000;
   background: linear-gradient(#131219, #131219) padding-box, linear-gradient(
         var(--angle),
@@ -173,6 +171,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 
+
+
+
 .delete-this{
   height: 200vh;
 }
+
+
+/* font size */

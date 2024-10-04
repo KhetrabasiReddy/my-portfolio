@@ -14,7 +14,7 @@ function NavBar(props) {
     return (
         <>
             <Router>
-                <Navbar expand="md sticky-top">
+                <Navbar expand="lg ">{/**sticky-top */}
                     <Container >
                         <Navbar.Brand>
                             <a href="./../data/KhetrabasiReddy_Software_Developer.pdf" download="Resume" className="nav-link" target='_blank'>
