@@ -49,18 +49,11 @@ body::-webkit-scrollbar-thumb {
   }
   
   /* Customize the theme switcher */
-  .theme-switch {
-    /* margin-top: .7rem !important; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-transform: uppercase;
-    
-  }
-  #theme-switch-btn,
   #theme-label {
     cursor: pointer;
     user-select: none;
+    display: inline-block;
+    transform: translateX(-40%);
   }
 
   
