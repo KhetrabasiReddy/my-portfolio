@@ -4,7 +4,6 @@ import profilePhoto from './../assets/images/profile-photo.jpg'
 
 import useInView from '../hooks/useInView'
 
-import Contact from './Contact'
 // import javaImg from './../assets/images/java-img.png'
 // import reactImg from './../assets/images/react-img.png'
 // import bootstrapImg from './../assets/images/bootstrap-img.png'
@@ -12,7 +11,7 @@ export default function Home() {
   const [ref, isInView] = useInView({ threshold: 0.1 });
   return (
     <>
-      <div className='container-fluid' id='hero-page' style={{padding:'80px'}}>
+      <div  className='container-fluid' id='hero-page' style={{ padding: '80px' }}>
         <div className=' d-flex flex-column flex-lg-row justify-content-around align-items-center text-center'>
           <div ref={ref} className={` hero p-3 fade-in-section ${isInView ? "is-visible" : ""}`}>
             <img className='h-100 w-100 rounded-circle object-fit-cover hero-img ' src={profilePhoto} />

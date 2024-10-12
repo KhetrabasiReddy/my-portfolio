@@ -1,4 +1,4 @@
-import NavBar from './NavBar';
+import NavBar from './components/NavBar';
 import { useEffect, useState } from 'react';
 import Loader from './components/Loader';
 import MouseTracker from './components/MouseTracker';
@@ -7,10 +7,11 @@ import MouseTracker from './components/MouseTracker';
 import './App.css'
 import './styles/viewportAnimations.css'
 import './styles/fontSize.css'
-
+import Home from './components/Home';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
-import Contact from './components/Contact';
+import About from './components/About';
+
 
 
 function App() {
@@ -18,14 +19,22 @@ function App() {
   const [theme, setTheme] = useState('light');
 
 
-  useEffect(()=>{
+  useEffect(() => {
     setTimeout(() => setLoading(false), 1500);
-  },[]);
+  }, []);
 
   return (
     <>
-     {theme === 'dark'? <MouseTracker/> : null}
-    {loading ? <Loader/> :<> <NavBar theme={theme} setTheme={setTheme}/></> }    
+      {theme === 'dark' ? <MouseTracker /> : null}
+      {loading ? <Loader /> : <>
+        <NavBar theme={theme} setTheme={setTheme} />
+        <Home />
+        <Projects />
+        <Skills />
+        <About />
+
+      </>}
+
     </>
   );
 }

@@ -108,9 +108,7 @@ body::-webkit-scrollbar-thumb {
   position: fixed;
   width: 5vw;
   height: 5vw;
-  /* background-color: rgba(255, 255, 255, 0.5); */
   backdrop-filter: invert(200%);
-  /* filter: blur(50px); */
   pointer-events: none;
   border-radius: 50%;
   z-index: 5 !important;
@@ -120,12 +118,10 @@ body::-webkit-scrollbar-thumb {
 
 /* Hero Page */
 .hero{
-  /* height: 90%; */
-  /* width: 30%; */
+ 
 }
 
 #hero-page .greet{
-  /* background-image: linear-gradient(to right,#662D8C , #ED1E79); */
   background-image: linear-gradient(to right,#009fff,#ec2f4b);
   color: transparent;
   background-clip: text;
@@ -165,11 +161,9 @@ body::-webkit-scrollbar-thumb {
 
 
 
+/* font size */
 
 
 .delete-this{
-  height: 200vh;
+  height:100vh;
 }
-
-
-/* font size */
