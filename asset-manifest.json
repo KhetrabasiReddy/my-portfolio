@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.3a6a6edf.css",
-    "main.js": "/my-portfolio/static/js/main.c6faa289.js",
+    "main.css": "/my-portfolio/static/css/main.228e854c.css",
+    "main.js": "/my-portfolio/static/js/main.735b29ce.js",
     "static/js/453.acca0757.chunk.js": "/my-portfolio/static/js/453.acca0757.chunk.js",
     "static/media/profile-photo.jpg": "/my-portfolio/static/media/profile-photo.600ae863aaf1e587f400.jpg",
     "static/media/KhetrabasiReddy_Software_Developer.pdf": "/my-portfolio/static/media/KhetrabasiReddy_Software_Developer.0cdb633a6ec564d985ff.pdf",
@@ -9,12 +9,12 @@
     "index.html": "/my-portfolio/index.html",
     "static/media/brightness-high.svg": "/my-portfolio/static/media/brightness-high.224fff9e99424c32f820e28acd2b1a61.svg",
     "static/media/moon.svg": "/my-portfolio/static/media/moon.9da3012687e8ba2f7c714df89068e839.svg",
-    "main.3a6a6edf.css.map": "/my-portfolio/static/css/main.3a6a6edf.css.map",
-    "main.c6faa289.js.map": "/my-portfolio/static/js/main.c6faa289.js.map",
+    "main.228e854c.css.map": "/my-portfolio/static/css/main.228e854c.css.map",
+    "main.735b29ce.js.map": "/my-portfolio/static/js/main.735b29ce.js.map",
     "453.acca0757.chunk.js.map": "/my-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a6a6edf.css",
-    "static/js/main.c6faa289.js"
+    "static/css/main.228e854c.css",
+    "static/js/main.735b29ce.js"
   ]
 }
