@@ -2,16 +2,21 @@ import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import './../styles/project.css'
-export default function Project(props) {
-    const { name, technologies, description, challenges, image, githubLink, siteLink } = props;
-    const [lgShow, setLgShow] = useState(false);
+import useInView from '../hooks/useInView';
 
+
+export default function Project(props) {
+    const {id, name, technologies, description, challenges, image, githubLink, siteLink } = props;
+
+    const [lgShow, setLgShow] = useState(false);
     const handleClose = () => setLgShow(false);
     const handleShow = () => setLgShow(true);
 
+    const [ref, isInView] = useInView({ threshold: 0.1 });
+
     return (
         <>
-            <div className='project-thumbnail border border-secondary rounded' onClick={handleShow} style={{ cursor: 'pointer' }}>
+            <div ref={ref} className={`project-thumbnail border border-secondary rounded ${id%2===0?'appear-left-section':'appear-right-section'} ${isInView ? "is-visible" : ""}`} onClick={handleShow} style={{ cursor: 'pointer' }}>
                 <img src={image} className='w-100 h-100 object-fit-cover rounded' loading='lazy' />
                 <p className='text-center'>{name}</p>
             </div>
@@ -29,13 +34,13 @@ export default function Project(props) {
                     </picture>
                     <p className='my-1'>Technologies Used:
                         {
-                            technologies.map(tech => <span className='btn mx-1 text-dark fw-bold' style={{backgroundColor:`var(--${tech.toLowerCase()}-color)`}} >{tech}</span>)
+                            technologies.map((tech,index) => <span key={tech} className='btn mx-1 text-dark fw-bold' style={{backgroundColor:`var(--${tech.toLowerCase()}-color)`}} >{tech}</span>)
                         }
 
                     </p>
                     <p>Challenge: <span className='btn btn-secondary '>{challenges}</span></p>
                     <ul>
-                        {description.map((desc) => <li>{desc}</li>)}
+                        {description.map((desc) => <li key={desc}>{desc}</li>)}
                     </ul>
                 </Modal.Body>
                 <Modal.Footer>

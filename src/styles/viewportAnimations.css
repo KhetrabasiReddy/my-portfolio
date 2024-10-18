@@ -10,13 +10,25 @@
   }
 
   
-  .appear-section {
+  
+  .appear-left-section {
     opacity: 0;
     transform: translateX(100px);
+    transition: transform 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  .appear-left-section.is-visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .appear-right-section {
+    opacity: 0;
+    transform: translateX(-100px);
     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
   }
   
-  .appear-section.is-visible {
+  .appear-right-section.is-visible {
     opacity: 1;
     transform: translateX(0);
   }

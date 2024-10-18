@@ -17,6 +17,7 @@
     position: relative;
 }
 
+
 .project-thumbnail::after{
     content: "VIEW";
     font-size: 2rem;
@@ -32,15 +33,23 @@
     justify-content: center;
     align-items: center;
     transform: scale(0);
-    transition: 300ms transform;
+    transition: 300ms all;
 }
 .project-thumbnail:hover::after{
     transform: scale(1);
 }
 
-.project-filter nav-link.active{
-    background-color: #7411f7;
+.project-filter .nav-link{
+    display: inline-block;
+    font-size: 2rem;
+    min-width: 10rem;
 }
+.project-filter .nav-link.active-tab{
+    color:white;
+    background-image: linear-gradient( 111deg,#009dffd7,#ec2f4be0,#009dffdc);
+}
+
+
 
 @media (min-width:991px){
     .project-thumbnail{
