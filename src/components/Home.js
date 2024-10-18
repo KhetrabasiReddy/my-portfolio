@@ -4,9 +4,6 @@ import profilePhoto from './../assets/images/profile-photo.jpg'
 
 import useInView from '../hooks/useInView'
 
-// import javaImg from './../assets/images/java-img.png'
-// import reactImg from './../assets/images/react-img.png'
-// import bootstrapImg from './../assets/images/bootstrap-img.png'
 export default function Home() {
   const [ref, isInView] = useInView({ threshold: 0.1 });
   return (
