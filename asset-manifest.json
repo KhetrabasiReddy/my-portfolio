@@ -1,20 +1,27 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.228e854c.css",
-    "main.js": "/my-portfolio/static/js/main.735b29ce.js",
+    "main.css": "/my-portfolio/static/css/main.253bc147.css",
+    "main.js": "/my-portfolio/static/js/main.f6f56010.js",
     "static/js/453.acca0757.chunk.js": "/my-portfolio/static/js/453.acca0757.chunk.js",
+    "static/media/grilli.png": "/my-portfolio/static/media/grilli.dcc7300654046224986b.png",
+    "static/media/nasa-apod.png": "/my-portfolio/static/media/nasa-apod.00851f6212bfb62525b9.png",
+    "static/media/little-lemon.png": "/my-portfolio/static/media/little-lemon.7d02ccce2827764ad313.png",
     "static/media/profile-photo.jpg": "/my-portfolio/static/media/profile-photo.600ae863aaf1e587f400.jpg",
+    "static/media/YT-Bookmarker.png": "/my-portfolio/static/media/YT-Bookmarker.10ff4ed3fdcd65d01c13.png",
+    "static/media/simple-calculator.png": "/my-portfolio/static/media/simple-calculator.27a2b8e1af10b84fed6d.png",
     "static/media/KhetrabasiReddy_Software_Developer.pdf": "/my-portfolio/static/media/KhetrabasiReddy_Software_Developer.0cdb633a6ec564d985ff.pdf",
+    "static/media/code-pen.png": "/my-portfolio/static/media/code-pen.8748021b11720680f469.png",
+    "static/media/todo-list.png": "/my-portfolio/static/media/todo-list.bc7bf1da246016085dba.png",
     "static/media/man-running.mp4": "/my-portfolio/static/media/man-running.3215fc7367a29193300d.mp4",
     "index.html": "/my-portfolio/index.html",
     "static/media/brightness-high.svg": "/my-portfolio/static/media/brightness-high.224fff9e99424c32f820e28acd2b1a61.svg",
     "static/media/moon.svg": "/my-portfolio/static/media/moon.9da3012687e8ba2f7c714df89068e839.svg",
-    "main.228e854c.css.map": "/my-portfolio/static/css/main.228e854c.css.map",
-    "main.735b29ce.js.map": "/my-portfolio/static/js/main.735b29ce.js.map",
+    "main.253bc147.css.map": "/my-portfolio/static/css/main.253bc147.css.map",
+    "main.f6f56010.js.map": "/my-portfolio/static/js/main.f6f56010.js.map",
     "453.acca0757.chunk.js.map": "/my-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.228e854c.css",
-    "static/js/main.735b29ce.js"
+    "static/css/main.253bc147.css",
+    "static/js/main.f6f56010.js"
   ]
 }
