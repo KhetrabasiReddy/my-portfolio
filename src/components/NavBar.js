@@ -1,4 +1,4 @@
-import myResume from './../data/KhetrabasiReddy_Software_Developer.pdf'
+import myResume from './../data/Khetrabasi_Reddy.pdf'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
