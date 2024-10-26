@@ -76,6 +76,16 @@ export const projects = [
         siteLink: "https://khetrabasireddy.github.io/Coursera-Little-Lemon-HTML-CSS-In-Depth.github.io/",
         type:'front-end'
     },
-
+    {
+        id: 8,
+        name: "E-commerce Website",
+        description: ["Responsive Design: The website features a fully responsive layout, ensuring optimal viewing on devices of all sizes, from desktops to smartphones.","User-Friendly Navigation: Users can effortlessly browse through various product categories, view detailed product descriptions, and add items to their shopping cart.","Modern Aesthetics: The design prioritizes a clean and intuitive user interface, making the shopping experience enjoyable and efficient.","Future-Ready: Plans for future enhancements include implementing user authentication, search functionality, and integration with payment gateways to facilitate secure transactions.","This is a guided project. I completed this project as the part of the internship program of internPe."],
+        technologies: ["HTML", "CSS", "JavaScript"],
+        challenges: "#ManOfCulture  I knew you will click on this project.",
+        image: require('./../assets/project-images/ECommerceSite.png'),
+        githubLink: "https://github.com/KhetrabasiReddy/Ecommerce-Website.github.io.git",
+        siteLink: "https://khetrabasireddy.github.io/Ecommerce-Website.github.io/index.html",
+        type:'front-end'
+    }
 
 ]
