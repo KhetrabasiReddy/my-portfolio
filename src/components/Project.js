@@ -34,7 +34,12 @@ export default function Project(props) {
                     </picture>
                     <p className='my-1'>Technologies Used:
                         {
-                            technologies.map((tech,index) => <span key={tech} className='btn mx-1 text-dark fw-bold' style={{backgroundColor:`var(--${tech.toLowerCase()}-color)`}} >{tech}</span>)
+                            technologies.map((tech,index) => <span
+                                key={tech}
+                                className='btn mx-1 text-light fw-bold'
+                                style={{backgroundColor:`var(--${tech.toLowerCase()}-color,"brown")`}} >
+                                {tech}
+                            </span>)
                         }
 
                     </p>

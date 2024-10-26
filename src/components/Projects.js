@@ -30,11 +30,10 @@ export default function Projects() {
           onClick={() => { setProjectType('others') }}>Others</button>
       </div>
 
-      <div className='d-flex justify-content-center align-items-center flex-wrap gap-5 overflow-hidden'>
+      <div className='filtered-projects d-flex justify-content-center align-items-center flex-wrap gap-5 overflow-hidden'>
         {
           filteredProjects.length > 0 ? filteredProjects.map((project) => <Project key={project.id} {...project} />) :
             <h1>Coming Soon<ReactTyped strings={["..."]} typeSpeed={150} backSpeed={80} loop cursorChar='' /></h1>
-
         }
       </div>
     </section>

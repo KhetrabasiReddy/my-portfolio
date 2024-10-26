@@ -1,3 +1,4 @@
+// project types: all, front-end, back-end, full-stack, others
 export const projects = [
     {
         id: 1,
@@ -67,7 +68,7 @@ export const projects = [
     },
     {
         id: 7,
-        name: "ReactJS To-Do List",
+        name: "Little Lemon Restaurant",
         description: ["The Coursera Little Lemon project is a responsive website designed for a fictional restaurant, focusing on modern design principles and effective layout. Built with HTML and CSS, this project showcases my ability to create visually appealing and user-friendly web pages.", "Key features include: A fully responsive layout that adjusts seamlessly across various devices and screen sizes. Utilization of CSS Flexbox and Grid for efficient and adaptive designs, ensuring a clean and organized presentation of content. A visually engaging interface that highlights the restaurant's menu, services, and ambiance through high-quality images and clear typography.", "This project emphasizes my foundational skills in web development and my understanding of how to create an engaging user experience through thoughtful design and responsive web practices."],
         technologies: ["HTML", "CSS"],
         challenges: "Using Grid and media queries",
@@ -86,6 +87,17 @@ export const projects = [
         githubLink: "https://github.com/KhetrabasiReddy/Ecommerce-Website.github.io.git",
         siteLink: "https://khetrabasireddy.github.io/Ecommerce-Website.github.io/index.html",
         type:'front-end'
+    },
+    {
+        id: 9,
+        name: "LogIn Authentication",
+        description: ["This project is a User Authentication System developed using Java Servlets, JSP, JDBC, and MySQL. The primary goal is to demonstrate proficiency in these technologies by building a secure, functional web application that allows user authentication, session management, and data retrieval from a database.","User Registration and Authentication:Users can log in using their usernames and passwords.Passwords are securely managed in the database.","User Authentication: Allows users to log in with their credentials, displaying an error page for invalid attempts.","Session Management: Utilizes HttpSession to maintain user sessions and restricts access to secured pages.","Personalized Experience: Displays a welcome message and user profile image after successful login, with links to additional resources.","Access Control: Secures Welcome and Videos pages for logged-in users only, while the About page is publicly accessible.","Logout Functionality: Provides a secure logout option that invalidates the user session."],
+        technologies: ["HTML", "CSS", "Bootstrap","JSP","Servlets","SQL","JDBC"],
+        challenges: "making the welcome and about page secure",
+        image: require('./../assets/project-images/logindemo.png'),
+        githubLink: "https://github.com/KhetrabasiReddy/JavaBackendProjects.git",
+        siteLink: "https://github.com/KhetrabasiReddy/JavaBackendProjects.git",
+        type:'back-end'
     }
 
 ]
