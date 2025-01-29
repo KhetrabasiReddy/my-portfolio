@@ -19,7 +19,7 @@ function NavBar(props) {
                         <Nav className="mx-auto gap-2 ">
                             <Nav.Link href="#hero-page">Home</Nav.Link>
                             <Nav.Link href="#projects">Projects</Nav.Link>
-                            <Nav.Link href="#skills">Skills</Nav.Link>
+                            <Nav.Link href="#all-skills">Skills</Nav.Link>
                             <Nav.Link href="#about">About</Nav.Link>
                         </Nav>
                         <div className='theme-switch text-center'><ThemeSwitch  {...props} /></div>

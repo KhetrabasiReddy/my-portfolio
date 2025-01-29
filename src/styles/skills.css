@@ -1,0 +1,12 @@
+.skill-container-animation{
+    transition: transform 300ms, filter 500ms;
+    /* transform: translateY(0); */
+}
+.skill-container-animation:hover{
+    transform: translateY(-10px) scale(1.07);
+    cursor: pointer;
+    
+}
+.skills-set:hover .skill-container-animation:not(:hover){
+    filter: grayscale(100%);
+}

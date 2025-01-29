@@ -8,7 +8,7 @@ export default function Home() {
   const [ref, isInView] = useInView({ threshold: 0.1 });
   return (
     <>
-      <div  className='container-fluid' id='hero-page' style={{ padding: '80px' }}>
+      <div className='container-fluid' id='hero-page' style={{ padding: '80px' }}>
         <div className=' d-flex flex-column flex-lg-row justify-content-around align-items-center text-center'>
           <div ref={ref} className={` hero p-3 fade-in-section ${isInView ? "is-visible" : ""}`}>
             <img className='h-100 w-100 rounded-circle object-fit-cover hero-img ' src={profilePhoto} />
@@ -20,7 +20,7 @@ export default function Home() {
               <ReactTyped strings={["Khetrabasi", "A Developer"]} typeSpeed={80} backSpeed={30} loop />
             </h1>
             <p className='p-1 text-center my-2 fw-normal'>
-              I am a dedicated front-end developer with strong expertise in <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>Bootstrap</strong>, and <strong>React</strong>, specializing in building responsive and dynamic user interfaces. As I expand my knowledge into <strong>full-stack development</strong>, I am consistently enhancing my skills in <strong>Java</strong> and backend technologies. I am highly adaptable, a skilled problem-solver, and committed to delivering efficient, scalable applications while staying current with emerging technologies and best practices.
+              Hi, I'm Khetrabasi Reddy, a software developer skilled in Java, Spring Boot, Hibernate, MySQL, React, and JavaScript. I enjoy building clean, efficient, and scalable applications. Currently, I'm looking for my first developer role where I can contribute and grow.
             </p>
           </div>
         </div>

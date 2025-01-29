@@ -1,6 +1,6 @@
 
 import './../styles/loaderSpinner.css'
-import loadingImg from './../assets/images/man-running.mp4'
+
 function Loader() {
     return (
         <div className="loader d-flex justify-content-center align-items-center bg-light">
