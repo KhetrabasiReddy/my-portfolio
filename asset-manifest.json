@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.5d1090ff.css",
-    "main.js": "/my-portfolio/static/js/main.6a573f6c.js",
+    "main.js": "/my-portfolio/static/js/main.b2f51869.js",
     "static/js/453.acca0757.chunk.js": "/my-portfolio/static/js/453.acca0757.chunk.js",
     "static/media/grilli.png": "/my-portfolio/static/media/grilli.dcc7300654046224986b.png",
     "static/media/nasa-apod.png": "/my-portfolio/static/media/nasa-apod.00851f6212bfb62525b9.png",
@@ -9,8 +9,8 @@
     "static/media/ECommerceSite.png": "/my-portfolio/static/media/ECommerceSite.96f9176f2c9ef1f6fbb7.png",
     "static/media/YT-Bookmarker.png": "/my-portfolio/static/media/YT-Bookmarker.10ff4ed3fdcd65d01c13.png",
     "static/media/profile-photo.jpg": "/my-portfolio/static/media/profile-photo.1aed21aa2849f77a5bea.jpg",
+    "static/media/Khetrabasi_Reddy.pdf": "/my-portfolio/static/media/Khetrabasi_Reddy.d70503bc4ecf02cf183e.pdf",
     "static/media/bootstrap-img.png": "/my-portfolio/static/media/bootstrap-img.c8bb8224feac23daa7b7.png",
-    "static/media/Khetrabasi_Reddy.pdf": "/my-portfolio/static/media/Khetrabasi_Reddy.d209034b1a1fe5093366.pdf",
     "static/media/simple-calculator.png": "/my-portfolio/static/media/simple-calculator.27a2b8e1af10b84fed6d.png",
     "static/media/spring-boot-img.png": "/my-portfolio/static/media/spring-boot-img.953ee24309fa38748981.png",
     "static/media/code-pen.png": "/my-portfolio/static/media/code-pen.8748021b11720680f469.png",
@@ -23,11 +23,11 @@
     "static/media/brightness-high.svg": "/my-portfolio/static/media/brightness-high.224fff9e99424c32f820e28acd2b1a61.svg",
     "static/media/moon.svg": "/my-portfolio/static/media/moon.9da3012687e8ba2f7c714df89068e839.svg",
     "main.5d1090ff.css.map": "/my-portfolio/static/css/main.5d1090ff.css.map",
-    "main.6a573f6c.js.map": "/my-portfolio/static/js/main.6a573f6c.js.map",
+    "main.b2f51869.js.map": "/my-portfolio/static/js/main.b2f51869.js.map",
     "453.acca0757.chunk.js.map": "/my-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5d1090ff.css",
-    "static/js/main.6a573f6c.js"
+    "static/js/main.b2f51869.js"
   ]
 }
