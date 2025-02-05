@@ -26,8 +26,9 @@
     content: "VIEW";
     font-size: 2rem;
     color:wheat;
-    background-image: conic-gradient(#009dffd7,#ec2f4be0,#009dffdc);
-  
+    /* background-image: conic-gradient(#009dffd7,#ec2f4be0,#009dffdc); */
+    background-color: #264ce4ab;
+    color:black;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -50,7 +51,8 @@
 }
 .project-filter .nav-link.active-tab{
     color:white;
-    background-image: linear-gradient( 111deg,#009dffd7,#ec2f4be0,#009dffdc);
+    /* background-image: linear-gradient( 111deg,#009dffd7,#ec2f4be0,#009dffdc); */
+    background-color: #264ce4ab;
 }
 
 

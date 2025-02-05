@@ -37,7 +37,7 @@ export default function Project(props) {
                             technologies.map((tech,index) => <span
                                 key={tech}
                                 className='btn mx-1 text-light fw-bold'
-                                style={{backgroundColor:`var(--${tech.toLowerCase()}-color,"brown")`}} >
+                                style={{backgroundColor:`#264ce4ab`}} >
                                 {tech}
                             </span>)
                         }
