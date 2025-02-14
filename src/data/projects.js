@@ -117,7 +117,22 @@ export const projects = [
         siteLink: "https://github.com/KhetrabasiReddy/chat-app-khetrabasi.git",
         type: "full-stack"
     },
-    
-
-
+    {
+        id: 11,
+        name: "E-Commerce Project",
+        description: [
+            "This project is a full-stack e-commerce application built using Spring Boot and React JS. It allows users to browse, search, add, update, and delete products with image uploads.",
+            "Product Management: Users can add, update, and delete products, including uploading images for each product.",
+            "Image Handling: Stores and retrieves product images securely using MultipartFile in Spring Boot.",
+            "Search Functionality: Allows users to search for products based on keywords.",
+            "REST API: Provides structured API endpoints for seamless integration with a frontend.",
+            "Exception Handling: Manages errors gracefully, returning proper HTTP responses."
+        ],
+        technologies: ["Spring Boot", "Java", "React JS", "MySQL", "Hibernate", "REST API", "MultipartFile"],
+        challenges: "Handling image uploads efficiently and ensuring smooth CRUD operations with database integration.",
+        image: require('./../assets/project-images/ecomm-backend-crud.png'),
+        githubLink: "https://github.com/KhetrabasiReddy/ecomproject.git",
+        siteLink: "https://github.com/KhetrabasiReddy/ecomproject.git",
+        type: "back-end"
+    },
 ]
